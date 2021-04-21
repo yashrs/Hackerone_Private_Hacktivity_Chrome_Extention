@@ -1,0 +1,21 @@
+{
+    "name": "HackerOne Private Program Hacktivity viewer",
+    "version": "1.0",
+    "description": "I can't has cheezburger!",
+    "permissions": ["storage", "https://hackerone.com/hacktivity*"],
+    "background": {
+      "scripts": []
+    },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://hackerone.com/hacktivity*"],
+          "js": ["run.js"],
+          "html": []
+        }
+      ],
+    "web_accessible_resources": ["cs.js"]
+}
