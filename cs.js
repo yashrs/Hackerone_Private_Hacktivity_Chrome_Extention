@@ -1,9 +1,7 @@
 function patchGQLQuery(obj)
 {
     team_condition = {"state":{"_eq":"soft_launched"}};
-    console.log(obj);
     where_clause = obj["variables"]["where"];
-    console.log(where_clause);
     if(where_clause === null || where_clause === undefined){
         where_clause = {};
     }
