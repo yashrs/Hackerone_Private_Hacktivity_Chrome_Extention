@@ -12,7 +12,6 @@ function patchGQLQuery(obj)
     console.log(obj);
     return obj;
 }
-window.a = "hello";
 
 const Mock = window.fetch;
 console.log("Patching fetch");
