@@ -1,12 +1,14 @@
 Steps to use:
 
-- Install this extension in chrome by following:
- - Download the zip using GitHub. Extract it.
- - Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions).
- - Enable Developer mode by ticking the checkbox in the upper-right corner.
- - Click on the "Load unpacked extension..." button.
- - Select the directory containing your unpacked extension.
+Install this extension in chrome by following:
 
+- Download the zip using GitHub. Extract it.
+- Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions).
+- Enable Developer mode by ticking the checkbox in the upper-right corner.
+- Click on the "Load unpacked extension..." button.
+- Select the directory containing your unpacked extension.
+
+After installation:
 
 - Open Hacktivity(https://hackerone.com/hacktivity).
 - Select Type `Disclosed`. If any other type is selected, it'll give 500 errors on the server side. 
