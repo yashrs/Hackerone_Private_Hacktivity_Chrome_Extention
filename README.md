@@ -11,7 +11,7 @@ Install this extension in chrome by following:
 After installation:
 
 - Open Hacktivity(https://hackerone.com/hacktivity).
-- Select Type `Disclosed`. If any other type is selected, it'll give 500 errors on the server side. 
+- Select Type `Disclosed` from the left hand menu. If any other type is selected, it'll give 500 errors on the server side. 
 - Sample URL is https://hackerone.com/hacktivity?querystring=&filter=type:public&order_direction=DESC&order_field=latest_disclosable_activity_at&followed_only=false&collaboration_only=false
 - Click on the extension icon, a popup will appear, click on yes to enable the extension and reload the page. You should now be seeing only the private reports on the hacktivity.
 
