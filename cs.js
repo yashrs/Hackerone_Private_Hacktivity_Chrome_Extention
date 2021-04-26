@@ -6,7 +6,7 @@ function patchGQLQuery(obj)
         report_clause = {};
     }
     report_clause["team"] = team_condition;
-    obj["variables"]["report"] = report_clause;
+    obj["variables"]["where"]["report"] = report_clause;
     console.log(obj);
     return obj;
 }
