@@ -1,12 +1,12 @@
 function patchGQLQuery(obj)
 {
     team_condition = {"state":{"_eq":"soft_launched"}};
-    where_clause = obj["variables"]["where"];
-    if(where_clause === null || where_clause === undefined){
-        where_clause = {};
+    report_clause = obj["variables"]["where"]["report"];
+    if(report_clause === null || report_clause === undefined){
+        report_clause = {};
     }
-    where_clause["team"] = team_condition;
-    obj["variables"]["where"] = where_clause;
+    report_clause["team"] = team_condition;
+    obj["variables"]["report"] = report_clause;
     console.log(obj);
     return obj;
 }
